@@ -4,15 +4,18 @@ Created on Tue Sep 22 15:25:20 2020
 
 @author: Siddh
 """
-
+import sys
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
 
-with open('input\input03.txt', 'r') as file:
-    data = file.read().split("\n")
+
+# with open('input\input00.txt', 'r') as file:
+#     data = file.read().split("\n")
+
+data = sys.stdin.readlines()
     
 f, n = list(map(int, data[0].split()))
 

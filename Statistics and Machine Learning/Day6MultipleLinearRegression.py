@@ -4,14 +4,15 @@ Created on Tue Sep 22 14:23:16 2020
 
 @author: Siddh
 """
+import sys
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn import linear_model
 
-with open('input\input00.txt', 'r') as file:
-    data = file.read().split("\n")
+# with open('input\input00.txt', 'r') as file:
+#     data = file.read().split("\n")
 
-# data = sys.stdin.readlines()
+data = sys.stdin.readlines()
     
 f, n = list(map(int, data[0].split()))
 
