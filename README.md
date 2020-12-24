@@ -11,3 +11,7 @@ Day6MultipleLinearRegression.py
 ## Polynomial Regression: Office Prices
 https://www.hackerrank.com/challenges/predicting-office-space-price/problem
 PolynomialRegression.py
+
+## Day 7: Temperature Predictions
+https://www.hackerrank.com/challenges/temperature-predictions/problem
+TemperaturPredictions.py
